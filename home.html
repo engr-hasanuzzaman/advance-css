@@ -15,8 +15,10 @@
                 <div class="header">
                     Wellcome To Fin...
                 </div>
-                <form action="#">
-                    <input type="text" name="name" id="" placeholder="name">
+                <form class="form" action="#">
+                    <input class='form-control' type="text" name="name" id="" placeholder="name">
+                    <input class='form-control' type="text" name="name" id="" placeholder="name">
+                    <button type="submit" class="btn">Submit</button>
                 </form>
             </div>
         </div>
@@ -45,7 +47,6 @@
     .form-container {
         width: 300px;
         height: 300px;
-        /* border: 2px solid red; */
         background: #ffffff;
         border-radius: 15%;
         padding: 20px;
@@ -56,17 +57,47 @@
     .header {
         text-align: center;
         background-color: blue;
-        left: -2px;
-        right: -2px;
+        left: -5px;
+        right: 0px;
         flex-direction: column;
         display: flex;
-        border-radius: 16px;
+        top: 36px;
+        border-radius: 3px;
         justify-content: center;
         position: absolute;
         height: 40px;
         color: #ffffff;
         font-weight: 800;
         font-size: 1.2rem;
+    }
+
+    .form {
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+        height: 100%;
+    }
+
+    .form-control {
+        border: none;
+        border-radius: 5px;
+        border-left: 7px solid blue;
+        background-color: rgb(228, 224, 224);
+        border-right: none;
+        height: 40px;
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+
+    .btn {
+        border-radius: 10px;
+        background-color: blue;
+        color: #ffffff;
+        border: none;
+        margin-top: 20px;
+        height: 40px;
+        font-weight: 700;
+        font-size: 1rem;
     }
 </style>
 
