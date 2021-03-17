@@ -12,6 +12,9 @@
     <div class="container">
         <div class="image-bg">
             <div class="form-container">
+                <div class="header">
+                    Wellcome To Fin...
+                </div>
                 <form action="#">
                     <input type="text" name="name" id="" placeholder="name">
                 </form>
@@ -42,11 +45,28 @@
     .form-container {
         width: 300px;
         height: 300px;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         background: #ffffff;
         border-radius: 15%;
         padding: 20px;
-        margin-right: -150px;
+        margin-right: -100px;
+        position: relative;
+    }
+
+    .header {
+        text-align: center;
+        background-color: blue;
+        left: -2px;
+        right: -2px;
+        flex-direction: column;
+        display: flex;
+        border-radius: 16px;
+        justify-content: center;
+        position: absolute;
+        height: 40px;
+        color: #ffffff;
+        font-weight: 800;
+        font-size: 1.2rem;
     }
 </style>
 
