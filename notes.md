@@ -1,0 +1,1 @@
+- `background-position` indicate which part of the bg image will crop when using `background-size: cover`. If it is `center` that means center will remain as it is but header and bottom will adjust. `background-position: top` means top part of the image will be same but other part will be adjust simarly `background-position: bottom` keep bottom unchanged.
