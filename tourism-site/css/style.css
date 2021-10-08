@@ -75,6 +75,7 @@ body {
     font-weight: 700;
     font-size: 15px;
     animation: rotate 1.5s ease-out;
+    display: block;
     /* animation-name: rightToLeft;
     animation-duration: 1.5s;
     animation-timing-function: ease-out; */
