@@ -54,8 +54,10 @@ body {
     text-align: center; */
 
     position: absolute;
+    /* below top and left reference with parent */
     top: 40%;
     left: 50%;
+    /* translate is against itself's width and height */
     transform: translate(-50%, -50%);
 }
 .heading-primary {
