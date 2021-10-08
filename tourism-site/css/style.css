@@ -46,6 +46,13 @@ body {
     height: 20px;
 }
 
+.heading {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+}
 .heading-primary {
     display: block;
     letter-spacing: 30px;
