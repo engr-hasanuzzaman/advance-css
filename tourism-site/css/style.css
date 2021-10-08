@@ -45,3 +45,17 @@ body {
 .logo {
     height: 20px;
 }
+
+.heading-primary {
+    display: block;
+    letter-spacing: 30px;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.heading-secondary {
+    letter-spacing: 17.5px;
+    font-weight: 700;
+    font-size: 15px;
+}
