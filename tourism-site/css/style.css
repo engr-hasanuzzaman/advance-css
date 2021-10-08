@@ -76,6 +76,12 @@ body {
     font-size: 15px;
     animation-name: rightToLeft;
     animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    
+    /* 
+    animation-delay: 0s;
+    animation-iteration-count: 3;
+     */
 }
 
 @keyframes moveToRight {
@@ -84,10 +90,10 @@ body {
         transform: translateX(-100%);
     }
 
-    /* 50% {
+    80% {
         opacity: 0.5;
-        transform: translate(-50%);
-    } */
+        transform: translateX(10px);
+    }
     
     100% {
         opacity: 1;
